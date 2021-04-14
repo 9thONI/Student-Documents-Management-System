@@ -1,0 +1,13 @@
+C:\Users\roland\source\repos\StudentDocumentsManagementSystem\bin\Debug\netcoreapp3.1\StudentDocumentsManagementSystem.exe
+C:\Users\roland\source\repos\StudentDocumentsManagementSystem\bin\Debug\netcoreapp3.1\StudentDocumentsManagementSystem.deps.json
+C:\Users\roland\source\repos\StudentDocumentsManagementSystem\bin\Debug\netcoreapp3.1\StudentDocumentsManagementSystem.runtimeconfig.json
+C:\Users\roland\source\repos\StudentDocumentsManagementSystem\bin\Debug\netcoreapp3.1\StudentDocumentsManagementSystem.runtimeconfig.dev.json
+C:\Users\roland\source\repos\StudentDocumentsManagementSystem\bin\Debug\netcoreapp3.1\StudentDocumentsManagementSystem.dll
+C:\Users\roland\source\repos\StudentDocumentsManagementSystem\bin\Debug\netcoreapp3.1\StudentDocumentsManagementSystem.pdb
+C:\Users\roland\source\repos\StudentDocumentsManagementSystem\obj\Debug\netcoreapp3.1\StudentDocumentsManagementSystem.csprojAssemblyReference.cache
+C:\Users\roland\source\repos\StudentDocumentsManagementSystem\obj\Debug\netcoreapp3.1\StudentDocumentsManagementSystem.AssemblyInfoInputs.cache
+C:\Users\roland\source\repos\StudentDocumentsManagementSystem\obj\Debug\netcoreapp3.1\StudentDocumentsManagementSystem.AssemblyInfo.cs
+C:\Users\roland\source\repos\StudentDocumentsManagementSystem\obj\Debug\netcoreapp3.1\StudentDocumentsManagementSystem.csproj.CoreCompileInputs.cache
+C:\Users\roland\source\repos\StudentDocumentsManagementSystem\obj\Debug\netcoreapp3.1\StudentDocumentsManagementSystem.dll
+C:\Users\roland\source\repos\StudentDocumentsManagementSystem\obj\Debug\netcoreapp3.1\StudentDocumentsManagementSystem.pdb
+C:\Users\roland\source\repos\StudentDocumentsManagementSystem\obj\Debug\netcoreapp3.1\StudentDocumentsManagementSystem.genruntimeconfig.cache
