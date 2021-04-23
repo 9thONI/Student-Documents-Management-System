@@ -1,4 +1,8 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace StudentDocumentsManagementSystem
 {
@@ -6,58 +10,47 @@ namespace StudentDocumentsManagementSystem
     {
         static void Main(string[] args)
         {
-
             Console.Write("Enter username: ");
             string uName = Console.ReadLine();
             Console.Write("Enter Password: ");
             string pWord = Console.ReadLine();
-
-            string studName1 = "angeliko centeno";
-            string studName2 = "jaypee macalalad";
-            string studName3 = "aljames advincula";
-            
             if (uName == "admin" & pWord == "admin")
             {
                 Console.WriteLine("|============================================|");
                 Console.WriteLine("|             You are logged in              |");
                 Console.WriteLine("|============================================|");
-                Console.WriteLine("Student List: " + "\n" + studName1 + "\n" + studName2 + "\n" + studName3);
-              
-                string inputStudentName = Console.ReadLine().ToLower();
-
+                List<string> Names = new List<string>();
+                Names.Add("Angeliko Roland Centeno");
+                Names.Add("John Patrick Macalalad");
+                Names.Add("James Darrel Advincula");
+                Names.Add("Nestor Gerona");
+                Names.Add("Josel Catalan");
+                Names.Add("John Edward Barreras");
+               
+                foreach (string name in Names)
+                {
+                    Console.WriteLine("Student name: " + name);
+                }
                 Console.WriteLine("Enter student Name: ");
-
-
-          
-
-                if (inputStudentName == (studName1))
+                string inputName = Console.ReadLine();
+    
+                
+                if (inputName == (""))
                 {
-                    Console.WriteLine("Full name: Angeliko Roland Centeno" + "\n" + "Year level: 2nd Year" + "\n" + "Section: 1" + "\n" + "Course: BSIT");
+                    Console.WriteLine("Please Select a Student");
+                }
+                else if (Names.Any(s => s.Equals(inputName,StringComparison.OrdinalIgnoreCase)))
+                {
+                    Console.WriteLine("Documents not yet available");
 
                 }
-                else if (inputStudentName == (studName2))
-                {
-                    Console.WriteLine("Full name: John Patrick macalalad" + "\n" + "Year level: 2nd Year" + "\n" + "Section: 1" + "\n" + "Course: BSIT");
-
+                else {
+                    Console.WriteLine("Student Not Found");
                 }
-                else if (inputStudentName == (studName3)) 
-                {
-                    Console.WriteLine("Full name: James Darrel Advincula" + "\n" + "Year level: 2nd Year" + "\n" + "Section: 1" + "\n" + "Course: BSIT");
-
-                }
-                else 
-                {
-                    Console.WriteLine("student not found");
-                }
-
             }
             else
                 Console.WriteLine("INVALID INPUT");
-
-
             Console.ReadLine();
-
-
         }
     }
 }

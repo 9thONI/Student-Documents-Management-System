@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "HlcjkVYvKCvLYoTYHKIn8FsFUPHOsAkPqz05Aei54zPeCtNydLZOSIyv39pFLpgwcnI9hb1CFxguSqmfejeQyw==",
+  "dgSpecHash": "XdTU/CIZNoiWylDxYNlSkZ+YTRYelf5/KqXliLTsDuQdVxKUQahwQ/4/Rtiz9ySSGL4HOPWGs7wq1P4Fi/ixlw==",
   "success": true,
   "projectFilePath": "C:\\Users\\roland\\source\\repos\\StudentDocumentsManagementSystem\\StudentDocumentsManagementSystem.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\roland\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\roland\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\roland\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
+    "C:\\Users\\roland\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512"
+  ],
   "logs": []
 }
